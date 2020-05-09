@@ -1,0 +1,116 @@
+/*!
+ * HabboVibes.de - Wir lieben gute Musik!
+ *
+ * @author   Gummiauge & efi.styler
+ * @version  1.0.0
+ */
+
+ body {
+  background-color: #ffffff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 13px;
+  color: #ffffff;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#webplayer {
+  position: relative;
+  background-image: url('../images/webplayer.png');
+  width: 453px;
+  height: 300px;
+}
+
+#webplayer > #header {
+  position: absolute;
+  width: inherit;
+  margin-top: 15px;
+}
+
+#webplayer > #header > #mailbox {
+  position: absolute;
+  background-image: url('../images/mailbox.png');
+  width: 37px;
+  height: 30px;
+  right: 20px;
+  transition: opacity .3s ease-in-out;
+}
+
+#webplayer > #header > #mailbox:hover {
+  cursor: pointer;
+  opacity: .6;
+}
+
+#webplayer > #programm {
+  position: absolute;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+  width: 393px;
+  margin-top: 110px;
+  margin-left: 30px;
+}
+
+#webplayer > #programm > .title {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#webplayer > #programm > .subtitle {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+#webplayer > #programm > #listeners {
+  position: absolute;
+  font-weight: bold;
+  top: 109px;
+  margin-left: 70px;
+}
+
+#webplayer > #bottom > #playButton {
+  cursor: pointer;
+  position: absolute;
+  border-radius: 100%;
+  width: 60px;
+  height: 60px;
+  left: 31px;
+  bottom: 22px;
+}
+
+#webplayer > #bottom > #pauseButton {
+  cursor: pointer;
+  position: absolute;
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  left: 69px;
+  bottom: 9px;
+}
+
+#webplayer > #bottom > #slider {
+  position: absolute;
+  width: 210px;
+  height: 31px;
+  margin-top: 253px;
+  margin-left: 120px;
+}
+
+#webplayer > #bottom > #slider > .ui-slider-handle {
+  cursor: pointer;
+  position: absolute;
+  background-image: url('../images/slider.png');
+  width: 7px;
+  height: 32px;
+  outline: none;
+}
+
+#webplayer > #bottom > #habbo {
+  position: absolute;
+  width: 64px;
+  height: 110px;
+  right: 14px;
+  bottom: 20px;
+}
